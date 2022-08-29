@@ -20,6 +20,7 @@ struct RecipeListView: View {
                 VStack {
                     Text(r.name)
                         .font(.headline)
+                        .fontWeight(.black)
                     Text(r.description)
                 }
             }
